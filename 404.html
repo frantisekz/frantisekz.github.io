@@ -11,17 +11,6 @@
   
 
 
-  <!-- Force HTTPS Start -->
-  <script>
-  // Don't force http when serving the website locally
-  if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-  </script>
-
-  <!-- Force HTTPS End -->
-
-
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -247,7 +236,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, '404', 'https://frantisek.zatloukalu.eu/404.html');
+    history.pushState({}, '404', 'http://frantisek.zatloukalu.eu/404.html');
   }
 }
 </script>

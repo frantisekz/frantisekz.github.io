@@ -3,8 +3,8 @@
 	<channel>
 		<title>{ František Zatloukal }</title>
 		<description>Website (and sometime even blog) of František Zatloukal. </description>
-		<link>https://frantisek.zatloukalu.eu</link>
-		<atom:link href="https://frantisek.zatloukalu.eu/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://frantisek.zatloukalu.eu</link>
+		<atom:link href="http://frantisek.zatloukalu.eu/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Welcome!</title>
@@ -14,8 +14,8 @@
 </description>
 				
 				<pubDate>Mon, 28 Dec 2015 00:00:00 +0100</pubDate>
-				<link>https://frantisek.zatloukalu.eu/generic/2015/12/28/welcome.html</link>
-				<guid isPermaLink="true">https://frantisek.zatloukalu.eu/generic/2015/12/28/welcome.html</guid>
+				<link>http://frantisek.zatloukalu.eu/generic/2015/12/28/welcome.html</link>
+				<guid isPermaLink="true">http://frantisek.zatloukalu.eu/generic/2015/12/28/welcome.html</guid>
 			</item>
 		
 	</channel>
